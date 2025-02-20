@@ -66,6 +66,7 @@ I chose the Ridge model for deployment, some notes for building used car invento
 7. Some brands should be avoid, e.g. Fiat, chrysler, chevolet and dodge
 
 ## Final Thoughts
+As we see in the pridiction vs actural price comparison of the ridge model, some samples have big difference. One hypothesis is this comes from the situation that no accurate condition description can be relied on. Two cars both at 3-years old and 30,000 miles can have very different conditions, one could be worth $25,000 while the other might be $15,000.
 
 
-#### The Jupyter Notebook is: [prompt.ipynb](https://github.com/sgirem463/ML-AI-Driver-Coupons/blob/d6b9f563499c4bddf2f838773ee0e9d7a5182f5f/prompt.ipynb)
+#### The Jupyter Notebook is: [prompt_II.ipynb](https://github.com/sgirem463/ML-AI-Used-Cars/blob/main/prompt_II.ipynb)
