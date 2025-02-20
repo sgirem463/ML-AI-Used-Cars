@@ -46,13 +46,21 @@ GridSearchCV() was used for Ridge and Lasso.
 ## Evaluation
 I compared all models tried in the modeling stage, the Ridge model was found to be the best overall. The train and test MSE are as the following:
 
-model	train MSE	test MSE
-Linear	4.017385e+07	4.057258e+07
-SFS-5	5.425768e+07	5.507502e+07
-SFS-10	4.664791e+07	4.692533e+07
-SFS-20	4.341264e+07	4.355135e+07
-ridge	4.018845e+07	4.048460e+07
-lasso	4.044163e+07	4.071613e+07
+model   train MSE       test MSE
+
+---------------------------------------
+
+Linear  4.017385e+07    4.057258e+07
+
+SFS-5   5.425768e+07    5.507502e+07
+
+SFS-10  4.664791e+07    4.692533e+07
+
+SFS-20  4.341264e+07    4.355135e+07
+
+ridge   4.018845e+07    4.048460e+07
+
+lasso   4.044163e+07    4.071613e+07
 
 
 ## Deployment
